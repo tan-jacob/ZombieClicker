@@ -2,8 +2,8 @@
     left:50%;
     top:50%;
     position: absolute;
-    margin-top: -64px;
-    margin-left: -64px;
+    margin-top: -50px;
+    margin-left: -50px;
 
 }
 
@@ -12,5 +12,6 @@
 }
 
 body {
-    background-color: wheat;
+    background-color: #a3a2a2;
+    background-color: hsl(0%, 0%, 63%);
 }
