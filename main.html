@@ -1,52 +1,19 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type ="text/css" href="mainstyle.css">
 
-<style>
-
-    #zombie{
-        display: block;
-        margin: auto;
-        margin-top: 20%;
-    }
-
-</style>
-
-<script>
-
-    function clickZombie(){
-        document.getElementById('zombie').src="images/zombie.png";
-    }
-
-
-</script>
+<body>
 
 
 
+<div id="score">
+    Click the zombie to kill it! Your Score: 0
+</div>
 
 
+<img id="zombie" src="images/zombie.png">
 
 
-
-
-
-
-<img id="zombie">
-
-
-
-<script>
-
-document.getElementById('zombie').src="images/zombie.png";
-document.getElementById("zombie").onclick = clickZombie;
-
-
-</script>
-
-
-
-
-
-
-
-
+</body>
+<script src="mainscripts.js"></script>
 </html>

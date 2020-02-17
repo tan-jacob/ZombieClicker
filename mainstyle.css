@@ -1,0 +1,16 @@
+#zombie{
+    left:50%;
+    top:50%;
+    position: absolute;
+    margin-top: -64px;
+    margin-left: -64px;
+
+}
+
+#score{
+    text-align: center;
+}
+
+body {
+    background-color: wheat;
+}
