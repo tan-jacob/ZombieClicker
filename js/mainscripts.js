@@ -1,25 +1,29 @@
-function moveZombie(){
-    document.getElementById("zombie").src="images/zombie2.png"
+function moveMush(){
+    mush.src="images/mushidle1.gif"
     let width = window.innerWidth;
     let height = window.innerHeight;
-    let zom = document.getElementById('zombie');
+    
 
-    zom.style.left = Math.random()*(width - 100) + "px";
-    zom.style.top = Math.random()*(height - 100) + "px";
-    zom.style.margin = 0 + "px";
+    mush.style.left = Math.random()*(width - 170) + "px";
+    mush.style.top = Math.random()*(height - 120) + "px";
+    mush.style.margin = 0 + "px";
 }
 
-function clickZombie(){
+function clickMush(){
     score++;
     let scorebox = document.getElementById("score");
-    document.getElementById("zombie").src="images/death.gif";
-    scorebox.innerHTML = "Click the zombie to kill it! Your Score: " + score;
+    mush.src="images/mushdeath2.gif";
+    scorebox.innerHTML = "Click the mush to mush it! Your Score: " + score;
+}
+
+function mushDeath(){
+
 }
 
 let score = 0;
 
-let zombie = document.getElementById("zombie");
+let mush = document.getElementById("mush");
 
-zombie.onclick = clickZombie;
+mush.onclick = clickMush;
 
-let game = setInterval(moveZombie, 2000);
+let game = setInterval(moveMush, 2000);
