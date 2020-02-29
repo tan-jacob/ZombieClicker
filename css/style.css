@@ -2,8 +2,8 @@
     left:50%;
     top:50%;
     position: absolute;
-    margin-top: -50px;
-    margin-left: -50px;
+    margin-top: -85px;
+    margin-left: -60px;
 
 }
 
@@ -12,6 +12,5 @@
 }
 
 body {
-    background-color: #a3a2a2;
-    background-color: hsl(0%, 0%, 63%);
+    background-image: url('background.jpg');
 }
