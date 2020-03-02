@@ -57,10 +57,13 @@ function resetLocation() {
     mush.src = "images/mushidle1.gif"
     let width = window.innerWidth;
     let height = window.innerHeight;
-    mush.style.left = ((width - mushWidth) / 2) + "px";
-    mush.style.top = ((height - mushHeight) / 2) + "px";
-    //mush.style.margin-left =  -60 + "px";
-    //mush.style.margin-top = -85 + "px";
+
+    
+    mush.style.left = (width / 2) + "px";
+    mush.style.top = (height / 2) + "px";
+    mush.style.marginLeft = -60 + "px";
+    mush.style.marginTop = -85 + "px";
+    
 }
 
 function endGame() {
