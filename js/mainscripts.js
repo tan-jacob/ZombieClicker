@@ -57,13 +57,10 @@ function resetLocation() {
     mush.src = "images/mushidle1.gif"
     let width = window.innerWidth;
     let height = window.innerHeight;
-
-    
     mush.style.left = (width / 2) + "px";
     mush.style.top = (height / 2) + "px";
     mush.style.marginLeft = -60 + "px";
     mush.style.marginTop = -85 + "px";
-    
 }
 
 function endGame() {
@@ -73,4 +70,16 @@ function endGame() {
     scorebox.innerHTML = "Click the mush to mush it! Your Score: " + score;
 }
 
+/** 
+function centerEndGame() {
+    let width = window.innerWidth;
+    let height = window.innerHeight;
+    endbutton.style.left = (width / 2) + "px";
+    endbutton.style.top = (height) + "px";
+    endbutton.style.marginLeft = -60 + "px";
+    endbutton.style.marginTop = -85 + "px";
+}
 
+
+centerEndGame();
+*/
